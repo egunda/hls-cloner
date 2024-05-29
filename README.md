@@ -31,7 +31,7 @@ It will ask you for the master manifest url. This script is using multi-threadin
 ### Dependencies:
 You need to have `requests` and `m3u8` python packages for running the code. 
 Use
-`pip3 install requests
-pip3 install m3u8`
+`pip3 install requests`
+`pip3 install m3u8`
 
 
