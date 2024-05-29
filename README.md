@@ -21,7 +21,7 @@
 ```
 
 # hls-cloner
-This is a simple python script tp download an HLS stream and clone it on your local system.
+This is a simple python script tp download an HLS stream and clone it on your local system. This means, Master manifest file, child manifest files, and all the different bitrates' ts chubks will be copied in the original form.
 To use this script run `python3 hls-cloner.py`.
 It will ask you for the master manifest url. This script is using multi-threading to download the chunks faster. Enter the threads you want to run. The default value is 5.
 
